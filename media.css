@@ -1,0 +1,151 @@
+    @media screen and (max-width:980px) {
+        BODY {
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            width: 100%;
+        }
+        #ocultar {
+            display: none;
+        }
+        .sidebar
+        { 
+            margin: 0px;
+            margin-bottom: 10px;
+            width: 81%;
+        }
+        .sidebar__navigation {
+            width: 90%;
+            padding: 5px;
+        }
+        
+        #chk:checked + #ocultar {
+            display: block;
+        }
+
+        #chk {
+            display: none;
+        }
+        button {
+            border: 0px;
+            background-color: transparent;
+            color: #01717e;
+            margin-left:  10px;
+            display: inline;
+            cursor: pointer;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        BODY {
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            width: 100%;
+            
+        }
+        .header__logo h1{
+            margin-top: 10px;
+            font-size: 3em;
+        }
+        .section__content
+        {
+            width: 100%;
+        }
+        .section__posts-articles
+        {
+            margin: 0px auto;
+            margin-bottom: 10px;
+            justify-content: center;
+            width: 90%;
+        }
+        .section__posts {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 90%;
+        }
+        .sidebar
+        { 
+            margin: 0px;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+        .sidebar__navigation {
+            width: 90%;
+            padding: 5px;
+        }
+        .section__pagination
+        {
+            width: 100%;
+        }
+        .section__pagination-text {
+            width: 90%;
+        }
+        #ocultar {
+            display: none;
+        }
+        
+        #chk:checked + #ocultar {
+            display: block;
+        }
+
+        #chk {
+            display: none;
+        }
+        button {
+            border: 0px;
+            background-color: transparent;
+            color: #01717e;
+            margin-left:  10px;
+            display: inline;
+        }
+        .sidebar
+        { 
+            margin: 0px;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+        .sidebar__navigation {
+            width: 90%;
+            padding: 5px;
+        }
+ 
+    }
+    
+    @media screen and (max-width:480px) {
+        BODY {
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            width: 100%;
+        }
+        .sidebar
+        { 
+            margin: 0px;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+        .sidebar__navigation {
+            width: 90%;
+            padding: 5px;
+        }
+        .header__logo h1{
+            margin-top: 10px;
+            font-size: 3em;
+        }
+        .section__posts {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 90%;
+        }
+        button {
+            border: 0px;
+            background-color: transparent;
+            color: #01717e;
+            margin-left:  10px;
+            display: inline;
+        }
+
+     }
